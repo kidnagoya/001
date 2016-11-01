@@ -1,0 +1,41 @@
+/* ------ Variables ------ */
+$white: #FFFFFF;
+$dark: #231f20;
+$color_one: #df405a;
+$color_two: #87314e;
+$color_three: #512645;
+$color_four: #311e3e;
+
+/* ------ Global Styles ------ */
+body {
+  font-family: "brandon-grotesque", Lato, sans-serif;
+}
+
+.wrapper {
+  width: 1440px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+
+/* ------ Banner Styles ------ */
+
+#banner{
+    background-image:url(../images/cndy.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  header {
+    padding 2rem 0;
+  }
+  nav_left {
+    float: left;
+    color: $dark;
+    font-weight: 700;
+  }
+  nav_right {
+    float: right;
+    color: $dark;
+    font-weight: 700;
+  }
+  
+}
